@@ -31,9 +31,9 @@
     <target.gen.source.path>${project.build.directory}/generated-sources</target.gen.source.path>
     <dep.junit.platform.version>1.9.0</dep.junit.platform.version>
     <dep.junit.jupiter.version>5.10.1</dep.junit.jupiter.version>
-    <dep.slf4j.version>2.0.9</dep.slf4j.version>
+    <dep.slf4j.version>2.0.11</dep.slf4j.version>
     <dep.guava-bom.version>33.0.0-jre</dep.guava-bom.version>
-    <dep.netty-bom.version>4.1.104.Final</dep.netty-bom.version>
+    <dep.netty-bom.version>4.1.105.Final</dep.netty-bom.version>
     <dep.grpc-bom.version>1.60.0</dep.grpc-bom.version>
     <dep.protobuf-bom.version>3.23.1</dep.protobuf-bom.version>
     <dep.jackson-bom.version>2.16.0</dep.jackson-bom.version>
@@ -496,7 +496,7 @@
         <plugin>
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
-          <version>0.8.7</version>
+          <version>0.8.11</version>
         </plugin>
 
         <!--This plugin's configuration is used to store Eclipse m2e settings
@@ -993,7 +993,7 @@
           <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.7</version>
+            <version>0.8.11</version>
             <reportSets>
               <reportSet>
                 <inherited>false</inherited><!-- don't run aggregate in child modules -->
